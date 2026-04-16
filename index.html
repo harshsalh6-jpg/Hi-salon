@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Luxury Salon | Book Your Appointment</title>
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+body{
+    background:#111;
+    color:#fff;
+}
+header{
+    background:linear-gradient(135deg,#000,#222);
+    padding:20px 10%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+.logo{
+    font-size:28px;
+    font-weight:bold;
+    color:#f4b400;
+}
+nav a{
+    color:#fff;
+    margin-left:20px;
+    text-decoration:none;
+    transition:.3s;
+}
+nav a:hover{
+    color:#f4b400;
+}
+.hero{
+    min-height:90vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:40px;
+    background:url('https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=1400&q=80') center/cover;
+}
+.hero-content{
+    background:rgba(0,0,0,.65);
+    padding:40px;
+    border-radius:20px;
+    max-width:700px;
+}
+.hero h1{
+    font-size:48px;
+    margin-bottom:20px;
+}
+.hero p{
+    font-size:18px;
+    margin-bottom:25px;
+}
+.btn{
+    display:inline-block;
+    padding:14px 28px;
+    background:#f4b400;
+    color:#000;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:bold;
+}
+section{
+    padding:70px 10%;
+}
+.services{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+    margin-top:30px;
+}
+.card{
+    background:#1a1a1a;
+    padding:20px;
+    border-radius:15px;
+    text-align:center;
+}
+.card img{
+    width:100%;
+    border-radius:12px;
+    margin-bottom:15px;
+}
+.booking{
+    background:#1a1a1a;
+    padding:30px;
+    border-radius:20px;
+    max-width:600px;
+    margin:auto;
+}
+.booking input,
+.booking select,
+.booking textarea{
+    width:100%;
+    padding:14px;
+    margin-bottom:15px;
+    border:none;
+    border-radius:8px;
+}
+footer{
+    text-align:center;
+    padding:30px;
+    background:#000;
+    margin-top:40px;
+}
+.whatsapp-btn{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:#25D366;
+    color:#fff;
+    padding:15px 20px;
+    border-radius:50px;
+    text-decoration:none;
+    font
